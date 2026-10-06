@@ -876,6 +876,88 @@ img {
   transform: translateX(0.25rem);
 }
 
+/*==================== THESIS ====================*/
+
+.thesis__container {
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.thesis__image {
+  display: flex;
+  justify-content: center;
+}
+
+.thesis__image img {
+  width: 100%;
+  max-width: 430px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0.5rem;
+}
+
+.thesis__data {
+  max-width: 650px;
+}
+
+.thesis__title {
+  margin-bottom: 1rem;
+}
+
+.thesis__description {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.thesis__details {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.thesis__detail h4 {
+  margin-bottom: 0.25rem;
+}
+
+.thesis__detail p {
+  line-height: 1.6;
+}
+
+
+/*==================== WORK DOCUMENTATION ====================*/
+
+.portfolio__work {
+  margin-top: 6rem;
+}
+
+.portfolio.section .section__subtitle {
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+}
+
+
+/*==================== RESPONSIVE ====================*/
+
+@media screen and (max-width: 767px) {
+
+  .thesis__container {
+    grid-template-columns: 1fr;
+  }
+
+  .thesis__image img {
+    max-width: 350px;
+  }
+
+  .thesis__data {
+    max-width: 100%;
+  }
+
+  .portfolio__work {
+    margin-top: 4rem;
+  }
+
+}
 
 /*==================== SWIPER ====================*/
 
